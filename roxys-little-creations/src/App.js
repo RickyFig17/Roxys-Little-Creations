@@ -11,8 +11,10 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <h1>Welcome to Roxy's Little Creations!</h1>
+        <div className="content">
+          <h1>Welcome to Roxy's Little Creations!</h1>
         <Navbar />
+        </div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/store" element={<Store />} />

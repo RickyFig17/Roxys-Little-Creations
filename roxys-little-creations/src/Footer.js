@@ -9,7 +9,7 @@ function Footer() {
           &copy; {new Date().getFullYear()} Roxy's Little Creations. All rights
           reserved.
         </p>
-        <p>Follow us on social media!</p>
+        <p>Follow me on social media!</p>
       </div>
     </footer>
   );
